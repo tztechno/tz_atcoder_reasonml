@@ -21,4 +21,10 @@ print_endline(code);
 let greetingAndOneSlash = {|176160768\|};
 print_endline(greetingAndOneSlash);
 ###################################################
+#### same as test ans 3 1 2 2 
+let greetingAndOneSlash = {|3
+1
+2
+2|};
+print_endline(greetingAndOneSlash);
 ###################################################
