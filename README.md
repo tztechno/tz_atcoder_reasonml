@@ -6,6 +6,6 @@ Ksansansan
 
 https://tech.quartetcom.co.jp/2020/07/17/intro-to-reasonml/
 
-https://reasonml.github.io/docs/en/installation
+https://reasonml.github.io/
 
 入力を受け取る方法
