@@ -8,6 +8,38 @@ https://atcoder.jp/contests/APG4b
 ###################################################
 ###################################################
 ###################################################
+###################################################
+###################################################
+###################################################
+###################################################
+type state = {
+  movies: list(string)
+};
+
+type action =
+  | AddMovie(string)
+  | RemoveMovie(string)
+  | Reset
+
+let defaultState = { movies: [] }
+
+let reducer = (state) => fun
+  | AddMovie(movie) => { movies: [movie, ...state.movies] }
+  | RemoveMovie(movie) => { movies: state.movies |> List.filter(m => m !== movie) }
+  | Reset => defaultState;
+
+/* No need for additional functions! */
+let someAction = AddMovie("The End of Evangelion")
+###################################################
+let sum = (a,b) => a + b;
+let sum = (a: int, b: int) => a + b;
+type product = {
+  name: string,
+  id: int,
+};
+let formatName = product => "Name: "++product.name;
+let updateName = (product, name) => { ...product, name };
+###################################################
 let author = Some("Brandon");
 switch (author) {
 | Some("Brandon") => Js.log("Hello there, Brandon.")
