@@ -1,4 +1,4 @@
-# tz_atcoder_reasonml
+# reasonml
 
 .re
 
