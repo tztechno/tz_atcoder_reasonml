@@ -21,6 +21,7 @@ API ドキュメント : https://reasonml.github.io/api/index
 
 ### latest
 
+
 ---
 ```
 
@@ -39,11 +40,8 @@ API ドキュメント : https://reasonml.github.io/api/index
 ```
 ---
 ```
-
-```
----
-```
-
+数字の入力
+let n = int_of_string(read_line());
 ```
 ---
 
