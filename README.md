@@ -45,11 +45,17 @@ API ドキュメント : https://reasonml.github.io/api/index
 ```
 ---
 ```
-
+let input = read_line();
+let numbers = input
+  |> String.trim
+  |> String.split_on_char(' ')
+  |> Array.of_list
+  |> Array.map(int_of_string);
+let x = numbers[0];
 ```
 ---
 ```
-
+変数は小文字
 ```
 ---
 ```
