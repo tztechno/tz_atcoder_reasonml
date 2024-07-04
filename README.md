@@ -45,6 +45,41 @@ API ドキュメント : https://reasonml.github.io/api/index
 ```
 ---
 ```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+let ans = ref("Christmas");
+for (_ in 1 to 25 - d) {
+  ans := ans^ ++ " Eve";
+};
+```
+---
+```
 let input = read_line();
 let numbers = input
   |> String.trim
